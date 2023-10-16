@@ -1,0 +1,362 @@
+/* ================================| [Home-Screen] HomePage Component Start|=============================== */
+
+.mainHome {
+    height: 128vh;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: 24vh;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 100px 110px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#homeBoxes1 {
+    grid-row: 1/5;
+    grid-column: 1/3;
+}
+
+#homeBoxes1 img {
+    height: 65% !important;
+    width: 100% !important;
+    padding-bottom: 10px !important;
+    position: relative;
+    top: -20px;
+}
+
+#homeBoxes1 h1 {
+    line-height: 1;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+#homeBoxes1 p {
+    color: white;
+}
+
+.mainHome>h1 {
+    position: absolute;
+    color: #FBB231;
+    left: 110px;
+    top: 30px;
+    cursor: pointer;
+}
+
+#homeBoxes2 {
+    box-sizing: border-box;
+}
+
+.homeBoxes span {
+    padding: 4px 15px;
+    background: #FFD129;
+    font-size: 12px;
+    display: block;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.homeBoxes img {
+    height: 80%;
+    width: 50%;
+    padding-right: 5px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.homeBoxes h5 {
+    text-wrap: wrap;
+    display: inline-block;
+    width: 50%;
+    color: white;
+}
+
+.span {
+    display: flex;
+    column-gap: 5px;
+}
+/* ================================| [Home-Screen] HomePage Component End|=============================== */
+
+/* ================================| [Home-Screen] TopGame Component Start|=============================== */
+
+.topGame{
+    height: 68vh;
+    width: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    padding: 0px 100px;
+}
+.topGame h1{
+    padding: 30px 0px;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42vh;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.top div{
+    height: 100%;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.top img{
+    height: 80%;
+    width: 100%;
+}
+.top h2{
+    transition: all linear 0.5s;
+    font-size: 1.2rem;
+    color: white;
+}
+.top div:hover h2{
+    color: #FBB231;
+    text-decoration: underline;
+    transition: all linear 0.5s;
+}
+.top div:nth-last-child(1) h2{
+    font-size: 0.8rem;
+    font-weight: normal;
+
+}
+/* ================================| [Home-Screen] TopGame Component End|=============================== */
+
+/* ================================| [Home-Screen] SpecialDeals Component Start|=============================== */
+
+.special {
+    height: 72vh;
+    width: 100%;
+    padding-top: 50px;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 100px;
+}
+.special h1{
+    padding: 30px 0px;
+    color: white;
+}
+.deals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48vh;
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.deals div{
+    height: 100%;
+    width: 20vw;
+    cursor: pointer;
+    color: white;
+}
+
+.deals img{
+    height: 50%;
+    width: 100%;
+}
+.deals h4{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+/* ================================| [Home-Screen] SpecialDeals Component End|=============================== */
+
+/* ================================| [Home-Screen] CS:GO Component Start|=============================== */
+.CS{
+    grid-column: 2/6 !important;
+    grid-auto-rows: 15vh !important;
+}
+.mainCS{
+    row-gap: 0;
+    height: 140vh;
+    padding-bottom: 30px;
+}
+
+/* ================================| [Home-Screen] CS:GO Component End|=============================== */
+
+/* ================================| [Home-Screen] Valorant Component Start|=============================== */
+
+.valorantHome{
+    height: 106vh !important;
+    width: 100%;
+    display: grid;
+    grid-auto-rows: 42vh;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 100px 110px;
+    box-sizing: border-box;
+    position: relative;
+    }
+.valorantHome>h1 {
+    position: absolute;
+    color: #FBB231;
+    left: 110px;
+    top: 30px;
+    cursor: pointer;
+}
+#valorant1 {
+    grid-row: 1/2 !important;
+    grid-column: 1/5 !important;
+    display: flex; 
+}
+.flex{
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 43%;
+}
+#valorant1 img {
+    height: 100% ;
+    width: 50% ;
+    position: relative;
+}
+
+#valorant1 h1 {
+    line-height: 1;
+    padding-top: 20px;
+    color: white;
+    padding-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+#valorant1 p {
+    color: white;
+}
+
+.valorant{
+    color: white;
+}
+.valorant h5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+}
+.valorant img{
+    width: 100%;
+    height: 50%;
+}
+/* ================================| [Home-Screen] Valorant Component End|=============================== */
+
+
+/* ================================| [Home-Screen] AllNews Component Start|=============================== */
+
+.mainAll{
+    box-sizing: border-box;
+    height: fit-content;
+    width: 100%;
+    padding: 60px 100px;
+}
+.mainAll h1{
+    color: #FFD129;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.mainAll ul{
+    display: flex;
+    /* width: 50%; */
+    column-gap: 20px;
+    /* justify-content: space-between; */
+    color: white;
+    list-style-type: none;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.mainAll li{
+    transition: all linear 0.3s;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mainAll li:nth-child(1){
+    color: #FFD129;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+.mainAll li:hover{
+    transition: all linear 0.3s;
+    color: #FFD129;
+}
+.news{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-template-rows: repeat(2, 1fr);
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.news h4{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.news p{
+    color: white;
+    font-size: 14px;
+}
+.news img{
+    width: 100%;
+    height: 50%;
+}
+.mainAll button{
+    padding: 1rem 2.5rem;
+    background: #FFD129;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    left: 41%;
+    top: 30px;
+}
+.mainAll i{
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+/* ================================| [Home-Screen] AllNews Component End|=============================== */
+
+/* ================================| [Home-Screen] FAQ Component Start|=============================== */
+
+.faq{
+    height: fit-content;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.faqeer{
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.faq h1{
+    color: #FFD129;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+.faqeer > div{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.faq h4{
+    cursor: pointer;
+    width: fit-content;
+}
+.faq p{
+    font-size: 14px;
+    padding-top: 5px;
+}
+/* ================================| [Home-Screen] FAQ Component End|=============================== */
+
