@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/esport-theme-react/static/css/main.ea266c4b.css",
+    "main.js": "/esport-theme-react/static/js/main.46a993ed.js",
+    "static/js/787.c10a4dab.chunk.js": "/esport-theme-react/static/js/787.c10a4dab.chunk.js",
+    "index.html": "/esport-theme-react/index.html",
+    "main.ea266c4b.css.map": "/esport-theme-react/static/css/main.ea266c4b.css.map",
+    "main.46a993ed.js.map": "/esport-theme-react/static/js/main.46a993ed.js.map",
+    "787.c10a4dab.chunk.js.map": "/esport-theme-react/static/js/787.c10a4dab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea266c4b.css",
+    "static/js/main.46a993ed.js"
+  ]
+}
